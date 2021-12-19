@@ -1,19 +1,11 @@
 {
-  "name": "estacionamento",
+  "name": "front",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+     "start": "browser-sync start --server --file . --host --port 5000 --no-cors --startPath index.html" 
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2",
-    "nodemon": "^2.0.15",
-    "sqlite": "^4.0.23",
-    "sqlite3": "^5.0.2"
-  }
+  "license": "ISC"
 }
